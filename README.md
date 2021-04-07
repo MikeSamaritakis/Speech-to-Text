@@ -18,6 +18,12 @@ pip install tk
 
 ### Usage Example
 
+To create the .exe file you need to install the module PyInstaller, for
+Windows: pip install pyinstaller, for MAC OS it comes pre-installed. 
+After opening a terminal at the desired location, proceed to 
+executing the commands below: 
+  pyinstaller --onefile speech_to_text.py
+
 To run the .exe just double click it, a terminal will open, when a message appears
 simply speak into the microphone, after you are done, the text version of what 
 you just said will appear. 
